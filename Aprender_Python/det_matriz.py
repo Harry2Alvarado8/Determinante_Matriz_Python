@@ -53,3 +53,5 @@ eureca = Determinante_Matriz3x3(M)
 print "El resultado de la determinante de esta matriz es : ", eureca
 if eureca == 0:
     print "Estas matriz no podria ser inversa debido a que \nla determinante de la matriz es cero."
+ # Se le ha hecho modificaciones aproposito para comprobar las modificaciones
+ # que agregare a github
