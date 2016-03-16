@@ -59,9 +59,10 @@ else:
     if resp == "SI" or resp == "Si" or resp == "si" or resp == "sI":
         # print "Continuar"
         # inprimir(M)
-        ad = adjunta(M)
-        tras = traspuesta(ad)
-        mastriz_inversa = inversa(eureca,M)
+        # ad = adjunta(M)
+        tras = traspuesta(M)
+        ad = adjunta(tras)
+        mastriz_inversa = inversa(eureca,ad)
         print mastriz_inversa
     elif resp == "NO" or resp == "No" or resp == "no" or resp == "nO":
         print "Salir"
@@ -69,4 +70,4 @@ else:
         print "valor ingresado incorrecto"
  # Se le ha hecho modificaciones aproposito para comprobar las modificaciones
  # que agregare a github
- # Pormedio de conexion SSH 
+ # Pormedio de conexion SSH
