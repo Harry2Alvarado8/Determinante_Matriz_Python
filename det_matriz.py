@@ -68,6 +68,7 @@ else:
         print "Salir"
     else:
         print "valor ingresado incorrecto"
+raw_input("Pulsa una tecla para continuar...")
  # Se le ha hecho modificaciones aproposito para comprobar las modificaciones
  # que agregare a github
  # Pormedio de conexion SSH
